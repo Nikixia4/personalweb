@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    /* outline: 1px solid  pink; */
+}
+body{
+    font-family:"Bruno Ace SC", sans-serif ;
+    line-height: 1.5;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-aic{
+    align-items: center;
+}
+.flex-sb-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ptb-160{
+    padding: 160px 0;
+}
+.fz20{
+    font-size: 20px;
+}
+.fz-24{
+    font-size: 24px;
+}
+h2, .header-text p{
+    font-size: 64px;
+}
+.bgc-black{
+    background-color: black;
+}
+.text-white{
+    color: white;
+}
+.head-list{
+    padding-top: 40px;
+}
+.head-list li{
+    width: 306px;
+}
+.head-list a:hover{
+    color: #00FFA3;
+}
+.head-list .head-list-last{
+    width: 196px;
+}
+.btn-white{
+    display: inline-block;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 32px;
+    margin-left: auto;
+}
+.btn-white:hover{
+    background-color: #00FFA3;
+}
+.btn-black{
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.btn-black:hover{
+    background-color: #00FFA3;
+}
+.header-text{
+    margin-left: 24px;
+}
+.header-bg{
+    padding: 72px 0;
+}
+h1{
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+.intro-bg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-position: center;
+}
+.intro-box h2{
+    margin-bottom: 36px;
+}
+.intro-box p{
+    margin-bottom: 32px;
+}
+.intro-img img{
+    margin-left: 24px;
+}
+.about-card{
+    display: flex;
+    justify-content: space-between;
+    width: 636px;
+    flex-wrap:wrap;
+}
+.about-text{
+    width: 526px;
+}
+.about-text h2{
+    margin-bottom: 36px;
+}
+.about-card li{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px #00000014 ;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.about-card li p:not(:last-child){
+    margin-bottom: 4px;
+}
+.contact-bg{
+    background: linear-gradient(#050014,#01021EE3 89%);
+    padding: 96px 0;
+}
+.btn-social img{
+    width: 162px;
+    margin-left: 20px;
+    box-shadow: 4px 4px 8px #00000014;
+}
+.btn-social-img{
+    width: 162px;
+    height: 162px;
+    border-radius: 40px;
+    margin-left: 20px;
+    box-shadow: 4px 4px 8px #00000014;
+    overflow: hidden;
+}
+.btn-social img:hover, .btn-social-img:hover{
+    border-radius: 40px;
+    box-shadow: 0 0 16px 3px #9094FFE5;
+}
+.Pjtitle{
+    width: 746px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.project-more{
+    width: 636px;
+    margin-left: 24px;
+}
+.footer{
+    padding: 40px 0;
+    text-align: center;
+}
